@@ -135,8 +135,8 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Aipass App`,
-        short_name: `Aipass App`,
+        name: `Digital Attendance App`,
+        short_name: `Digital Attendance App`,
         description: `A Quasar Framework app`,
         display: 'standalone',
         orientation: 'portrait',
@@ -202,7 +202,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'aipass'
+        appId: 'DigitalAttendance'
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

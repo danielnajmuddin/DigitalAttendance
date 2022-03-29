@@ -1,8 +1,8 @@
 {
-  "name": "aipass",
+  "name": "DigitalAttendance",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "Aipass App",
+  "productName": "Digital Attendance App",
   "author": "daniel <danielnajmuddin@gmail.com>",
   "private": true,
   "scripts": {
