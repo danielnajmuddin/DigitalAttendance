@@ -1,0 +1,37 @@
+// app global css in SCSS form
+@import "./quasar.variables.scss";
+@import "./typography.scss";
+
+/** TYPOGRAPHY: Start*/
+.big-font {
+    font-size: 18px;
+
+    @media (max-width: $breakpoint-sm-max) {
+      font-size: 16px;
+    }
+}
+/** TYPOGRAPHY: End*/
+
+.border-round {
+    border-radius: 20px 20px 0px 0px
+}
+.avatar {
+    position: absolute;
+    top: -30px;
+    left: 50px;
+}
+
+.btn-bottom {
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    // left: 45px;
+    // bottom: 30px;
+    border-radius: 15px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.q-tabs__content{
+    overflow:auto !important;
+  }

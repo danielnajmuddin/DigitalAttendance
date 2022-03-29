@@ -1,0 +1,58 @@
+@font-face {
+    font-family: RubikLight;
+    src: url(./fonts/Rubik-Light.woff);
+  }
+  
+  @font-face {
+    font-family: RubikRegular;
+    src: url(./fonts/Rubik-Regular.woff);
+  }
+  
+  @font-face {
+    font-family: RubikSemiBold;
+    src: url(./fonts/Rubik-SemiBold.woff);
+  }
+  
+  @font-face {
+    font-family: RubikMedium;
+    src: url(./fonts/Rubik-Medium.woff);
+  }
+  
+  @font-face {
+    font-family: RubikBold;
+    src: url(./fonts/Rubik-Bold.woff);
+  }
+  
+  $font-light : RubikLight;
+  $font-regular : RubikRegular;
+  $font-medium : RubikMedium;
+  $font-semibold : RubikSemiBold;
+  $font-bold : RubikBold;
+  
+  // declare a class which applies it
+  .font-light {
+    font-family: 'RubikLight', sans-serif;
+  }
+
+  
+  .font-regular {
+    font-family: 'RubikRegular', sans-serif;
+  }
+  
+  
+  .font-medium {
+    font-family: 'RubikMedium', sans-serif;
+  }
+  
+  .font-semibold {
+    font-family: 'RubikSemiBold', sans-serif;
+  }
+  
+  .font-bold {
+    font-family: 'RubikBold', sans-serif;
+  }
+
+  body {
+      font-family: $font-regular;
+      font-size: 14px;
+  }
