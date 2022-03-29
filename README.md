@@ -1,4 +1,4 @@
-# Aipass App (aipass)
+# Digital Attendance App
 
 A Quasar Framework app
 
